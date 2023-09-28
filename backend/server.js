@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === "production") {
   });
 } else {
   app.get("/", (req, res) => {
-    res.send();
+    res.send("API is running...");
   });
 }
 
@@ -46,7 +46,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chitchathub-7zfc.onrender.com/",
+    origin: "http://localhost:3000",
   },
 });
 
