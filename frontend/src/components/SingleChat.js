@@ -162,7 +162,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
   return (
     <>
       <>
-        {console.log("noiii")}
         {selectedChat ? (
           <>
             <Text
