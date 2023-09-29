@@ -60,9 +60,13 @@ Start the Client
 ```
 
 Create a .env file with the following details:
+
 PORT= {YOUR CHOSEN PORT NUMBER}
+
 MONGO_URI={YOUR MONGODB DATABASE URI}
+
 JWT_SECRET={YOUR JSON WEB TOKEN SECRET}
+
 NODE_ENV=production //for deployment
   
 # Features
