@@ -1,9 +1,3 @@
-**Name: Nishtha Rambhau Taktewale**
-
-**University: IIT Patna**
-
-**Department: Computer Science and Engineering**
-
 # Messaging App
 
 A Full Stack Chatting App.
